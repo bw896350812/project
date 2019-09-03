@@ -25,10 +25,6 @@ public class MovieController {
 		return "list";
 	}
 	
-	@RequestMapping("toAdd.do")
-	public String toAdd() {
-		return "add";
-	}
-	
+
 
 }
