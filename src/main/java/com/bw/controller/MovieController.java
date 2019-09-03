@@ -23,8 +23,6 @@ public class MovieController {
 		List<Map<String,Object>> shopList = movieService.getShopList();
 		model.addAttribute("shopList", shopList);
 		model.addAttribute("shopList", shopList);
-		model.addAttribute("shopList", shopList);
-		model.addAttribute("shopList", shopList);
 		return "list";
 	}
 	
