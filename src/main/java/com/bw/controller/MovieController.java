@@ -24,5 +24,11 @@ public class MovieController {
 		model.addAttribute("shopList", shopList);
 		return "list";
 	}
+	
+	@RequestMapping("toAdd.do")
+	public String toAdd() {
+		return "add";
+	}
+	
 
 }
